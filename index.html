@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Beyonce Quiz</title>
+	<link rel="stylesheet" href="quiz.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<!--mobile browser assumption of fixed layout of 980px-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="quiz.js" type="text/javascript"></script>
+	
+</head>
+
+<body>
+<div id = "container">
+<section id= "welcome">
+
+<h4>The Beyonce Quiz</h4>
+
+<h1>Flawless</h1>
+
+<nav>
+<ul>
+	<li><a href="#q1">Start</a></li>
+	<li><a href="#rules">The Rules</a></li>
+</ul>
+</nav>
+
+</section><!--end welcome-->
+
+<section id="rules">
+	<h1>the rules <small>of the</small> game</h1>
+	<ol>
+		<li>Do your best</li>
+		<li>No cheating</li>
+		<li>Have fun</li>
+		<li>Channel your inner DIVA</li>
+	</ol>
+	<ul>
+		<li><a href="#q1">Start</a></li>
+	</ul>
+</section> <!--end rules-->
+
+
+<section class="question" id ="q1">
+	
+<h1>question one</h1>
+
+<form>
+
+<h4>Beyonce was the lead singer of this sassy girl group before launching her solo career</h4>
+
+<input type="radio" name="response" id="r1_1" value="r1_1"><p>TLC</p>
+
+<input type="radio" name="response" id="r1_2" value="r1_2"><p>Spice Girls</p>
+
+<input type="radio" name="response" id="r1_3" value="r1_3"><p>Destiny's Child</p>
+
+<a href="#q2"><input type="submit" name="submit" id="submit1" value="Submit"><a href="#q2"></a>
+
+</form>  	
+
+</section> <!--end question one-->
+
+
+<section class="question" id ="q2">
+
+<h1>question two</h1>
+
+<form>
+
+<h4>Beyonce's sister's name is</h4>
+
+<input type="radio" name="response" id="r2_1" value="r2_1"><p>Solange</p>
+
+<input type="radio" name="response" id="r2_2" value="r2_2"><p>Tina</p>
+
+<input type="radio" name="response" id="r2_3" value="r2_3"><p>Karen</p>
+
+<a href="#q3"><input type="submit" name="submit" id="submit2" value="Submit"></a>
+
+</form>  
+
+</section><!--end question 2-->
+
+<section class="question" id ="q3">
+
+<h1>question three</h1>
+
+<form>
+
+<h4>Queen Bey is married to</h4>
+
+<input type="radio" name="response" id="r3_1" value="r3_1"><p>Usher</p>
+
+<input type="radio" name="response" id="r3_2" value="r3_2"><p>Dwayne Johnson</p>
+
+<input type="radio" name="response" id="r3_3" value="r3_3"><p>Jay-Z</p>
+
+<a href="#q4"><input type="submit" name="submit" id="submit3" value="Submit"></a> 
+
+</form>  	
+
+</section><!--end question 3-->
+
+
+<section class="question" id ="q4">
+	
+<h1>question four</h1>
+
+<form>
+
+<h4>Beyonce's most popular song to date is</h4>
+
+<input type="radio" name="response" id="r4_1" value="r4_1"><p>Crazy in Love</p>
+
+<input type="radio" name="response" id="r4_2" value="r4_2"><p>Drunk in Love</p>
+
+<input type="radio" name="response" id="r4_3" value="r4_3"><p>Single Ladies</p>
+
+<a href="#q5"><input type="submit" name="submit" id="submit4" value="Submit"></a>
+
+</form>  	
+
+</section> <!--end question4-->
+
+
+<section class="question" id ="q5">
+
+<h1>question five</h1>
+
+<form>
+
+<h4>Beyonce played this character in the movie "Dream Girls"</h4>
+
+<input type="radio" name="response" id="r5_1" value="r5_1"><p>Effie White</p>
+
+<input type="radio" name="response" id="r5_2" value="r5_2"><p>Deena Jones</p>
+
+<input type="radio" name="response" id="r5_3" value="r5_3"><p>Lorrell Robinson</p>
+
+<input type="submit" name="submit" id="submit5" value="Submit"> <!--on click go to next question-->
+
+</form>  	
+
+</section> <!--end question 5-->
+
+<section class = "results">
+
+<div id = "high">
+
+<h1> DIVA STATUS </h1>
+
+<blockquote> <!--score < 15-->
+You deserve to be a member of Queen Bey's inner circle. 
+</blockquote>
+<img src="http://static.celebuzz.com/uploads/2013/09/03/beyonce-4.gif">
+
+</div> <!--end high-->
+
+<div id = "med">
+
+<h1> Diva in training </h1>
+
+<blockquote> <!--score < 10-->
+Not bad! You seem pretty well aquainted with Sasha Fierce. Are you ready for a second go-round?
+</blockquote>
+<img src="http://26.media.tumblr.com/tumblr_m1an1zJfud1r6bv6fo1_500.gif"> <br>
+<a href="#welcome"><input type="submit" name="submit" id="submitMed" value="try again"></a>
+
+</div> <!--end med-->
+
+<div id = "low">
+
+<h1>Ring the alarm...</h1>
+
+<blockquote> <!--score < 5-->
+Are you drunk in love or just drunk? You need to study up before you try this quiz again.
+</blockquote> 
+<img src="https://bossip.files.wordpress.com/2014/11/beyonce-gif.gif"> <br>
+<a href="#welcome"><input type="submit" name="submit" id="submitLow" value="try again"></a>
+
+</div> <!--end low-->
+
+</section> <!--end results-->
+
+
+</div> <!--end container-->
+		
+
+</body>
+
+</html>

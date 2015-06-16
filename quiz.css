@@ -1,0 +1,319 @@
+body {
+	background-image: url("");
+	font-family: 'Poiret One', cursive,  Arial;
+	font-size: 1em;
+}
+
+#container { 
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	background-image: url("");
+}
+
+.clear {
+	clear: both;
+}
+
+/* welcome section */
+#welcome {
+	width: 100%;
+	height: 710px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	background-image: url("");
+}
+
+#welcome h4 {
+	font-size: 2em;
+	color: black;
+	line-height: 1.5px
+}
+
+#welcome h1 {
+	font-size: 4em;
+	margin-top: 10%;
+	color: black;
+	font-size: 10em;
+	font-weight: bold;
+}
+
+#welcome h1:hover {
+	-webkit-transform: rotate(360deg) scale(2);
+    -moz-transform: rotate(360deg) scale(2);
+    -ms-transform: rotate(360deg) scale(2);
+    transform: rotate(360deg) scale(2);
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+	
+}
+
+#welcome nav {
+	text-align: center;
+}
+
+#welcome nav ul {
+    display: block;	
+    margin-top: 10%;
+}
+
+#welcome nav li {
+	list-style: none;
+	margin-left: 20%;
+	float: left;
+	padding: 7px;
+}
+
+#welcome nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 4em;
+}
+
+#welcome nav li:hover {
+	background-color: black;
+    border: 2px solid black;
+	border-radius: 25px;
+}
+
+#welcome nav a:hover{
+	color: white;
+}
+
+/* end welcome section */
+
+/* rules section */
+
+#rules {
+	margin-top: 4%;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	border: 1px solid #fff;
+	background-color: black;
+	border-radius: 100px;
+	text-align: center;
+
+}
+
+#rules h1 {
+	margin-top: 10%;
+	margin-left: 300px;
+	color: white;
+	font-size: 5em;
+	font-weight: bold;
+}
+
+#rules small {
+	font-size: .5em;
+	font-weight: lighter;
+}
+
+#rules ol {
+font-size: 1.5em;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+#rules ol li{
+width: 30%;
+font-weight: bold;
+line-height: 2;
+color: white;
+}
+
+
+#rules ul li {
+	list-style: none;
+	margin-left: 10%;
+	float: left;
+	padding: 7px;
+}
+
+#rules ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 4em;
+}
+
+
+#rules h1:hover {
+color: black;
+}
+
+#rules small:hover {
+color:black;
+}
+
+#rules ol li:hover {
+color: black;
+}
+
+#rules:hover {
+background-image: url('https://d12vb6dvkz909q.cloudfront.net/uploads/galleries/37424/beyonce-widescreen.jpg');
+}
+
+/*end rules*/
+
+/*all questions*/
+.question {
+	margin-top: 4%;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	border: 1px solid #fff;
+	background-color: white;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 2;
+}
+
+.question h4{
+	font-size: 2em;
+	font-style: italic;
+}
+
+#q1:hover {
+	font-weight: bolder;
+	color: white;
+	background-image: url('http://images6.fanpop.com/image/photos/36200000/Beyonce-image-beyonce-36269776-1440-900.jpg');
+}
+
+#q2 {
+	background-color: black;
+	color:white;
+}
+
+#q2:hover{
+	font-weight: bolder;
+	background-image: url('http://thatgrapejuice.net/wp-content/uploads/2009/11/beyonce-album.jpg');
+}
+
+#q3:hover {
+	font-weight: bolder;
+	color: white;
+	background-image: url('http://i.ytimg.com/vi/5OztDqr2C0M/maxresdefault.jpg');
+}
+
+#q4 {
+	background-color: black;
+	color: white;
+}
+
+#q4:hover {
+	font-weight: bolder;
+	background-image: url('http://blog.corbis.com/wp-content/uploads/2014/11/42-60741712.jpg');
+}
+
+#q5:hover {
+	font-weight: bolder;
+	background-image: url('http://i.huffpost.com/gen/1354481/images/o-BEYONCE-facebook.jpg');
+}
+
+/*end questions*/
+
+/*results
+
+.results {
+	margin-top: 4%;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+}
+*/
+
+#high {
+	margin-top: 4%;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	text-align: center;
+	background-color: black;
+}
+
+#high h1{
+
+	font-size: 2.5em;
+	margin-top: 10%;
+	color: white;
+	font-weight: bold;
+
+}
+
+#high blockquote {
+	color: white;
+}
+
+#high img{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#med {
+	margin-top: 4%;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	text-align: center;
+	background-color: black;
+}
+
+#med h1 {
+	font-size: 2.5em;
+	margin-top: 10%;
+	color: white;
+	font-weight: bold;
+
+}
+
+#med blockquote{
+	color: white;
+}
+
+#med img{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#low {
+	margin-top: 4%;
+	width: 100%;
+	height: 700px;
+	margin-bottom: 1.5%;
+	overflow: hidden;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	text-align: center;
+	background-color: black;
+}
+
+#low h1 {
+	font-size: 2.5em;
+	margin-top: 10%;
+	color: white;
+	font-weight: bold;
+}
+
+#low blockquote {
+	color: white;
+}
+
+#low img{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
